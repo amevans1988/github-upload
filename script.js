@@ -4,6 +4,7 @@ var nameInput, storyInput;
 var storyDefault = `document.getElementById('innerStories').innerHTML`;
 
 const testFunc = () => {
+    console.log('sigh')
     alert('I\'m the only one who touches the box')
 }
 

@@ -1,0 +1,64 @@
+/* This is my stupid style sheet */
+
+* {
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 10px;
+    padding: 2px;
+}
+
+#box-1 {
+    color: blue;
+    background-color: violet;
+    text-align: center;
+    font-size: 1.7em;
+    border: solid 2px black;
+}
+
+#box-2 {
+    color: blue;
+    background-color: violet;
+    text-align: left;
+    border: solid 2px black;
+    text-indent: 50px;
+}
+
+#box-2 h2 {
+    font-size: 1.3em;
+    text-align: center;
+    font-style: normal;
+}
+
+#storyCreate {
+    border: solid 2px black;
+    color: blue;
+    background-color: violet;
+}
+
+#storyCreate h2 {
+    font-size: 1.3em;
+    text-align: center;
+}
+
+.description {
+    font-style: normal;
+    text-indent: 80px;
+}
+
+.list {
+    font-weight: bold;
+}
+
+.textForm {
+    border: none;
+}
+
+.storyHeader {
+    border: solid 2px black;
+    color: blue;
+    background-color: violet;
+    text-align: left;
+}
+
+#innerStories {
+    text-indent: 50px;
+}

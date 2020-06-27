@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Practice Document</title>
+
+        <link href='style.css' rel='stylesheet'>
+    </head>
+    <body>
+
+        <div>
+            <h1>Practice Document Cuz I'm Dumb!</h1>
+            <br><br>
+            <p>Seriously I have no idea what I'm doing</p>
+            <br><br><br>
+        </div>
+
+        <div id='box-1' onclick='testFunc()'>
+        <h3>Finely's Mom</h3>
+        </div>
+
+        <div id='box-2'>
+            <h2>Her Best Qualities</h2>
+            <ul>
+                <li class='list'>Giving</li>
+                <p class='description'>Something about her being giving</p>
+                <br>
+                <li class='list'>Always around</li>
+                <p class='description'>Something about her being always around</p>
+                <br>
+                <li class='list'>Doesn't ask unnecessary questions</li>
+                <p class='description'>Something about her not asking questions</p>
+                <br>
+                <li class='list'>Lives for the moment</li>
+                <p class='description'>Something about her living for the moment</p>
+
+            </ul>
+        </div>
+
+        <div class='storyHeader'>
+            <h2>Hear From Our Happy Customers:</h2>
+            <br>
+            <p id='innerStories'>
+                here is our first story:
+            </p>
+        </div>
+
+        <div id='storyCreate'>
+            <form id='textForm'>
+                <fieldset>
+                    <legend><h2>Have Your Own Story?</h2></legend>
+                    Name: <input id='inputName' type='text' placeholder='Your name here...'>
+                    <br>
+                    Story: &nbsp; <input id='inputStory' type='text' placeholder='Your story here...'>
+                    <br>
+                    <button type='submit' onclick='return addStory()'>Submit Story</button>
+                </fieldset>
+            </form>
+        </div>
+    </body>
+    <script src='script.js'></script>
+</html>

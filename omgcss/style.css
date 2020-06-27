@@ -1,0 +1,11 @@
+#hoverCheck {
+    color: blue;
+}
+
+#pleaseShow {
+    display: block;
+}
+
+#hoverCheck:hover #pleaseShow { 
+    display: none;
+}
